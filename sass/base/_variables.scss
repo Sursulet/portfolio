@@ -1,0 +1,30 @@
+/* *** *\
+VARIABLES 
+\* *** */
+
+$cprimary: #f39c12;
+
+:root {
+    --dark-one: #333;
+    --dark-two: #7a7a7a;
+    --main-color: #784cfb;
+    --light-one: #fff;
+    --light-two: #f9fafb;
+    --light-three: #f6f7fb;
+
+    /*===Main theme colors===*/
+    --first-color: #0e2431;
+
+    /*===Hover colors===*/
+    --hover-color: #614fd0;
+
+    --bg-transparent-color: rgba(0,0,0,0.1);
+    --bg-transparent-color: rgba(106,89,209,0.1);
+
+    --color-filter: invert(1);
+    --box-shadow: 0px 0px 20px rgb(0 0 0 / 10%)
+
+    /*=== Font size ===*/
+    --small-font-size: .9em;
+    --normal-font-size: 1em;
+}

@@ -1,0 +1,41 @@
+*,*::before,*::after { box-sizing: border-box; }
+
+body, button, input, textarea { font-family: 'Poppins', sans-serif; }
+a { text-decoration: none; color: inherit; }
+
+.text {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    color: var(--dark-two);
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// body {
+//     font-size: 18px;
+//     line-height: 1.75;
+//     font-family: 'Open Sans', sans-serif;
+//     color: #737373;
+// }
+
+
+
+// h1 {
+//     font-size: 3rem;
+//     margin-top: 2em;
+//     line-height: 3.3rem;
+// }
+
+// h2 {
+//     font-size: 20px;
+//     line-height: 1.25;
+//     color: black;
+// }
+
+// p { margin-bottom: 20px; }
+
+// img { width: 100%; }
