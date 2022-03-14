@@ -1,8 +1,8 @@
 *,*::before,*::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 
-body, button, input, textarea { font-family: 'Poppins', sans-serif; }
-a { text-decoration: none; color: inherit; }
-
+body, button, input, textarea { font-family: 'Poppins', sans-serif; } 
+a { text-decoration: none; }
 .text {
     font-size: 1.25rem;
     line-height: 1.6;
@@ -10,32 +10,12 @@ a { text-decoration: none; color: inherit; }
 }
 
 .image {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-// body {
-//     font-size: 18px;
-//     line-height: 1.75;
-//     font-family: 'Open Sans', sans-serif;
-//     color: #737373;
-// }
+.z-index { position: relative; z-index: 2; }
+//.stop-scrolling { height: 100%; overflow: hidden; }
 
-
-
-// h1 {
-//     font-size: 3rem;
-//     margin-top: 2em;
-//     line-height: 3.3rem;
-// }
-
-// h2 {
-//     font-size: 20px;
-//     line-height: 1.25;
-//     color: black;
-// }
-
-// p { margin-bottom: 20px; }
-
-// img { width: 100%; }
